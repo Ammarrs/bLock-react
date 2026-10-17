@@ -1,5 +1,6 @@
 import Btn from "../components/ui/Btn"
 import Input from "../components/ui/Input"
+import Card from "../components/ui/Card"
 
 function Qr() {
   return (
@@ -10,7 +11,9 @@ function Qr() {
           <Input label="Name (optional)" placeholder="MyWebsite"/>
           <Btn name="Generate"/>
         </div>
-        <div className="qr-display"></div>
+        <div className="qr-display flex items-center justify-center">
+          <Card />
+        </div>
       </div>
   )
 }
