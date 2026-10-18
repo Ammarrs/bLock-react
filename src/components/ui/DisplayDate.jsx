@@ -35,7 +35,7 @@ function DisplayDate() {
 
   return (
     <div>
-      <span className="text-5xl font-bold mt-10">{day}, {month} {monthDay}, {year}</span>
+      <span className="text-3xl xl:text-5xl font-bold xl:mt-10">{day}, {month} {monthDay}, {year}</span>
     </div>
   )
 }

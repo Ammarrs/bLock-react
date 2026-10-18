@@ -8,7 +8,7 @@ function Home() {
       <Clock/>
       <DisplayDate/>
       <UserLocation/>
-      <span className="w-1/2 font-medium text-4xl my-7 py-12">
+      <span className="lg:w-1/2 font-medium text-4xl my-7 py-12">
         a some qoute from some api to make a smiley face
       </span>
     </div>

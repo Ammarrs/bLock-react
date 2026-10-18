@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import Qr from "./pages/Qr";
 import Calculator from "./pages/Calculator";
 import Pomodoro from "./pages/Pomodoro";
+import MoreTools from "./pages/MoreTools";
 
 function App() {
   let routes = createBrowserRouter([
@@ -19,6 +20,7 @@ function App() {
         { path: "pomodoro", element: <Pomodoro /> },
         { path: "calculator", element: <Calculator /> },
         { path: "qr", element: <Qr /> },
+        { path: "more", element: <MoreTools /> },
       ],
     },
   ]);
