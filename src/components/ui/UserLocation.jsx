@@ -43,7 +43,7 @@ function UserLocation() {
   }, [])
   return (
     <div>
-      {location && <span className="text-3xl lg:text-5xl font-bold">{location.city}, {location.country}</span>}
+      {location && <span className="text-xl lg:text-5xl font-bold">{location.city}, {location.country}</span>}
     </div>
   );
 }

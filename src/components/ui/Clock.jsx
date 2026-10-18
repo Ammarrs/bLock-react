@@ -23,8 +23,8 @@ function Clock() {
   const formattedSecs = String(secs).padStart(2, "0");
 
   return (
-    <div className="mb-5">
-      <span className="text-[4rem] md:text-8xl lg:text-9xl font-bold">{formattedHrs}:{formattedMins}:{formattedSecs} {period}</span>
+    <div className="lg:mb-5">
+      <span className="text-[2.5rem] md:text-8xl lg:text-9xl font-bold">{formattedHrs}:{formattedMins}:{formattedSecs} {period}</span>
     </div>
   );
 }
